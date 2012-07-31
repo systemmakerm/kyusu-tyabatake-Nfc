@@ -1,0 +1,29 @@
+---
+sdkversion: 3.3.3
+name: nfc
+version: '1.0'
+vendor: rhomobile
+build: debug
+bbver: '4.6'
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: ''
+  codesignidentity: ''
+  entitlements: ''
+  BundleIdentifier: com.rhomobile.nfc
+  BundleURLScheme: nfc
+wp:
+  productid: ae2d32a0-bcd9-012f-2514-3c07542aa8a3
+symbian:
+  uid: '0xe2e818f7'
+android:
+  version: '2.3.3'
+capabilities:
+- non_motorola_device
+extensions:
+- nfc
+- json
+- another-extension
+app_type: rhoelements
